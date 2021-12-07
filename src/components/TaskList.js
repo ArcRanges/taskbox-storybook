@@ -87,7 +87,7 @@ export function TaskList() {
   };
 
   const filteredTasks = tasks.filter(
-    (t) => t.state === "TASK_INBOX" || t.state === "TASK_PINNED"
+    (t) => t.state === "TASK_INDEX" || t.state === "TASK_PINNED"
   );
   return (
     <PureTaskList

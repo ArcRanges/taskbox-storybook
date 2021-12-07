@@ -15,7 +15,7 @@ Default.args = {
     id: "1",
     title: "Test Task",
     state: "TASK_INDEX",
-    updatedAt: new Date(2021, 0, 1, 9, 0),
+    updatedAt: new Date(2021, 0, 1, 9, 0).toUTCString(),
   },
 };
 
